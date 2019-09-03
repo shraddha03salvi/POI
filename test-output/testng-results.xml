@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="89328" started-at="2019-08-24T11:11:27Z" finished-at="2019-08-24T11:12:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="89328" started-at="2019-08-24T11:11:27Z" finished-at="2019-08-24T11:12:56Z">
+      <class name="DataDriven_Framework.DataDriven1">
+        <test-method status="PASS" signature="LoginToNaukri(java.lang.String, java.lang.String)[pri:0, instance:DataDriven_Framework.DataDriven1@66d1af89]" name="LoginToNaukri" duration-ms="25018" started-at="2019-08-24T11:11:27Z" data-provider="naukaridata" finished-at="2019-08-24T11:11:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToNaukri -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:DataDriven_Framework.DataDriven1@66d1af89]" name="teardown" is-config="true" duration-ms="695" started-at="2019-08-24T11:11:52Z" finished-at="2019-08-24T11:11:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="LoginToNaukri(java.lang.String, java.lang.String)[pri:0, instance:DataDriven_Framework.DataDriven1@66d1af89]" name="LoginToNaukri" duration-ms="39196" started-at="2019-08-24T11:11:53Z" data-provider="naukaridata" finished-at="2019-08-24T11:12:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dhatavkarshraddha@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shivganga1993]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToNaukri -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:DataDriven_Framework.DataDriven1@66d1af89]" name="teardown" is-config="true" duration-ms="823" started-at="2019-08-24T11:12:32Z" finished-at="2019-08-24T11:12:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="LoginToNaukri(java.lang.String, java.lang.String)[pri:0, instance:DataDriven_Framework.DataDriven1@66d1af89]" name="LoginToNaukri" duration-ms="22883" started-at="2019-08-24T11:12:33Z" data-provider="naukaridata" finished-at="2019-08-24T11:12:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToNaukri -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:DataDriven_Framework.DataDriven1@66d1af89]" name="teardown" is-config="true" duration-ms="682" started-at="2019-08-24T11:12:56Z" finished-at="2019-08-24T11:12:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- DataDriven_Framework.DataDriven1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
